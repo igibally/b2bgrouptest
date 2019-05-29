@@ -1,0 +1,88 @@
+{
+	"id": "9252d2e8-8026-0a43-6caf-c194371b8eca",
+	"name": "b2bgroup",
+	"description": "",
+	"order": [
+		"cdc4a759-2a5e-9241-3853-ceaf2a3e5691",
+		"86bbf376-ad41-2657-a770-ce2aef28439f"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1559159400679,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "86bbf376-ad41-2657-a770-ce2aef28439f",
+			"headers": "Content-Type: application/json\nAuthorization: Basic YWRtaW46YWRtaW4xMjM=\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic YWRtaW46YWRtaW4xMjM=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/v1/products/search",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1559171147287,
+			"name": "http://localhost:8080/v1/products/search",
+			"description": "",
+			"collectionId": "9252d2e8-8026-0a43-6caf-c194371b8eca",
+			"responses": [],
+			"rawModeData": "{\r\n  \"description\": \"my first product\",\r\n  \"title\":\"islam\"\r\n}"
+		},
+		{
+			"id": "cdc4a759-2a5e-9241-3853-ceaf2a3e5691",
+			"headers": "Content-Type: application/json\nAuthorization: Basic YWRtaW46YWRtaW4xMjM=\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic YWRtaW46YWRtaW4xMjM=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/v1/products/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1559163880571,
+			"name": "http://localhost:8080/v1/products/1",
+			"description": "",
+			"collectionId": "9252d2e8-8026-0a43-6caf-c194371b8eca",
+			"responses": [],
+			"rawModeData": "{\r\n  \"description\": \"my first product description,islam\",\r\n  \"dietaryFlags\": \"vegan, lactose-free,islam\",\r\n  \"image_url\": \"http://image.com/islam.jpg\",\r\n  \"title\": \"my second product55islam-islam\",\r\n  \"vendor_ID\": 11,\r\n   \"price\": 800.5\r\n}"
+		}
+	]
+}
