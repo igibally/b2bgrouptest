@@ -29,7 +29,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8080/v1/products/search",
+			"url": "http://ec2-34-215-69-62.us-west-2.compute.amazonaws.com:8080/v1/products/search",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -41,12 +41,12 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1559171147287,
+			"time": 1559221027626,
 			"name": "http://localhost:8080/v1/products/search",
 			"description": "",
 			"collectionId": "9252d2e8-8026-0a43-6caf-c194371b8eca",
 			"responses": [],
-			"rawModeData": "{\r\n  \"description\": \"my first product\",\r\n  \"title\":\"islam\"\r\n}"
+			"rawModeData": "{\r\n  \"description\": \"my first product\",\r\n  \"title\":\"\"\r\n}"
 		},
 		{
 			"id": "cdc4a759-2a5e-9241-3853-ceaf2a3e5691",
@@ -65,19 +65,19 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:8080/v1/products/",
+			"url": "http://ec2-34-215-69-62.us-west-2.compute.amazonaws.com:8080/v1/products/1",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
 			"pathVariableData": [],
-			"method": "POST",
+			"method": "DELETE",
 			"data": [],
 			"dataMode": "raw",
 			"version": 2,
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1559163880571,
+			"time": 1559189360893,
 			"name": "http://localhost:8080/v1/products/1",
 			"description": "",
 			"collectionId": "9252d2e8-8026-0a43-6caf-c194371b8eca",
