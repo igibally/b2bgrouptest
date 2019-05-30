@@ -24,7 +24,6 @@ Basic Auth
  String "username:password" base64 encoded.
 ---------------------------------------------------------------------------------------------
 
-java -jar target/mytaxi_b2bgroup_application-1.0.0-SNAPSHOT.jar
 
 cloud url.
 http://ec2-34-215-69-62.us-west-2.compute.amazonaws.com:8080/swagger-ui.html
