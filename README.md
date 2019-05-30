@@ -28,7 +28,22 @@ Basic Auth
 cloud url.
 http://ec2-34-215-69-62.us-west-2.compute.amazonaws.com:8080/swagger-ui.html
 
- 
+/-----------------------------------------------------------------------------------------/
+sample request for creat new product 
+
+{
+  "description": "my third product description",
+  "dietaryFlags": "vegan, lactose-free",
+  "image_url": "https://s3-us-west-2.amazonaws.com/b2b-group-task/3.jpg",
+  "title": "my third product",
+  "vendor_ID": 11,
+   "price": 800.5
+}
+---------------------------------------------------------------------------------------
+b2bgroup.postman_collection.json file can  be imported into postman for requst samples
+
+
+thank you. 
 
 
 
